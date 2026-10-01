@@ -74,7 +74,7 @@ function LoginPage({ onLogin }) {
             <div className="input-with-icon">
               <i className="fa-solid fa-lock"></i>
               <input
-                // type={showPassword ? 'text' : 'password'}
+                type={showPassword ? 'text' : 'password'}
                 name="password"
                 value={form.password}
                 onChange={handleChange}
